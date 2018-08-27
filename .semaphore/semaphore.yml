@@ -12,14 +12,15 @@ blocks:
       - name: sem-service
         commands:
           - sem-service
+          - sem-service abc an_image
           - checkout
           - ls -l
 
       - name: retry
         commands:
           - checkout
+          - retry lsa -l
           - retry ls -l
-          - ls -l
 
   - name: Checkout
     task:
