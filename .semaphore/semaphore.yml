@@ -1,0 +1,31 @@
+version: v1.0
+name: Testing toolbox tools
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+blocks:
+  - name: "Build"
+    task:
+      jobs:
+      - name: sem-service
+        commands:
+          - checkout
+          - sem-service
+          - ls -l
+
+      - name: retry
+        commands:
+          - checkout
+          - retry
+          - ls -l
+
+  - name: Checkout
+    task:
+      jobs:
+      - name: Smoke
+        commands:
+          - checkout
+          - echo "make smoke"
+
