@@ -11,8 +11,8 @@ blocks:
       jobs:
       - name: sem-service
         commands:
-          - checkout
           - sem-service
+          - checkout
           - ls -l
 
       - name: retry
@@ -24,8 +24,8 @@ blocks:
   - name: Checkout
     task:
       jobs:
-      - name: Smoke
+      - name: Using checkout
         commands:
           - checkout
-          - echo "make smoke"
+          - ls -l
 
