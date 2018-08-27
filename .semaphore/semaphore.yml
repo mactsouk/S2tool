@@ -18,7 +18,7 @@ blocks:
       - name: retry
         commands:
           - checkout
-          - retry
+          - retry ls -l
           - ls -l
 
   - name: Checkout
