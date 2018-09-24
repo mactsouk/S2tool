@@ -37,4 +37,6 @@ blocks:
           - checkout
           - chmod 600 ~/.ssh/server_key
           - ls -l ~/.ssh/server_key
+      secrets:
+      - name: empty-secret
 
