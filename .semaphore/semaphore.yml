@@ -28,13 +28,6 @@ blocks:
         commands:
           - checkout
           - ls -l
-
-  - name: Using secrets
-    task:
-      jobs:
-      - name: Using .ssh/server_key
-        commands:
-          - checkout
           - chmod 600 ~/.ssh/server_key
           - ls -l ~/.ssh/server_key
           - cat ~/.ssh/server_key
