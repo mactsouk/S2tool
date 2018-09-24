@@ -28,7 +28,4 @@ blocks:
         commands:
           - checkout
           - ls -l
-          - ls ~/.ssh
-      secrets:
-      - name: empty-secret
 
