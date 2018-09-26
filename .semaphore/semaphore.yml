@@ -29,3 +29,10 @@ blocks:
           - checkout
           - ls -l
 
+  - name: sem-version
+    task:
+      jobs:
+      - name: Using sem-version
+        commands:
+          - sem-version
+
