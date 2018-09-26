@@ -37,4 +37,5 @@ blocks:
           - go version
           - sem-version go 1.9
           - go version
+          - sem-version go
 
