@@ -34,9 +34,9 @@ blocks:
       jobs:
       - name: Using sem-version
         commands:
-          - elixirc --version
-          - sem-version elixir 1.5
-          - elixirc --version
+          - python --version
+          - sem-version python 2.6
+          - python --version
           - go version
           - sem-version go 1.9
           - go version
