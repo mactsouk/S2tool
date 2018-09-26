@@ -37,7 +37,5 @@ blocks:
           - go version
           - sem-version go 1.9
           - go version
-          - python --version
-          - sem-version python 2.5
-          - python --version
+          - find /usr -name "change*"
 
