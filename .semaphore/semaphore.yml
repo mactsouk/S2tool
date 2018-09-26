@@ -38,4 +38,5 @@ blocks:
           - sem-version go 1.9
           - go version
           - find /usr -name "change*"
+          - which change-go-version
 
