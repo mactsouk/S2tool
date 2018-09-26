@@ -37,5 +37,5 @@ blocks:
           - go version
           - sem-version go 1.9
           - go version
-          - ls -l /usr/local/bin
+          - ls -l /opt
 
