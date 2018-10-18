@@ -12,9 +12,9 @@ blocks:
       - name: sem-service
         commands:
           - sem-service
-          - sem-service abc an_image
           - checkout
           - ls -l
+          - sleep 1200
 
       - name: retry
         commands:
